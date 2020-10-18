@@ -4,6 +4,6 @@
 
 `julia`{{execute}}
 
-## Launch the REPL
+## Execute julia code in the REPL
 
 `1+1`{{execute}}
