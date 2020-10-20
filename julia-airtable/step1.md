@@ -15,6 +15,8 @@
 
 `add https://github.com/kescobo/Airtable.jl`{{execute}}
 
+Click within the terminal window and type backspace to exit the package manager
+
 ## Back to the Julia command prompt
 
 ```
