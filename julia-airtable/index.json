@@ -1,6 +1,6 @@
 {
-  "title": "Julia REPL",
-  "description": "Julia in the REPL",
+  "title": "Julia Airtable",
+  "description": "Julia interacting with airtable",
   "difficulty": "Beginner",
   "time": "10 minutes",
   "details": {
