@@ -1,4 +1,4 @@
-# Julia REPL
+# Julia 💖 Airtable
 
 ## Set the environment variables
 
