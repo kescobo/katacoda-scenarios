@@ -13,11 +13,11 @@
 ## Overwrite the environment variabe
 
 `ENV["AIRTABLE_KEY"]="{api_key}"`{{copy}}
-`ENV["AIRTABLE_BASE"]="appWCLFCLviuWXULJ"`{{copy}}
+`ENV["AIRTABLE_BASE"]="{airtable_base}"`{{copy}}
 
 ## Back to the Julia command prompt
 
-```
+````
 using Airtable
 key=Airtable.Credential(ENV["AIRTABLE_KEY"]);
 base=ENV["AIRTABLE_BASE"]
@@ -25,4 +25,4 @@ table="Table 1"
 
 req1 = Airtable.request("GET", key, base, table; maxRecords=2)
 req1.records
-```{{execute}}
+````
