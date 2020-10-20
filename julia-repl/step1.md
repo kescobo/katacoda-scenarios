@@ -4,6 +4,28 @@
 
 `julia`{{execute}}
 
-## Execute julia code in the REPL
+## Get into the Package Manager
 
-`1+1`{{execute}}
+`]`{{execute}}
+
+`add https://github.com/kescobo/Airtable.jl`{{execute}}
+
+## Set the environment variabe
+
+`AIRTABLE_KEY='shrx4BWLV1HurniFD'`{{copy}}
+
+Replace the value with the one of the base that you want to access.
+
+`AIRTABLE_BASE='appphImnhJO8AXmmo'`{{copy}}
+
+## Back to the Julia command prompt
+
+`using Airtable
+key=Airtable.Credential();
+AIRTABLE_BASE=ENV["AIRTABLE_BASE"]
+AIRTABLE_TABLE="Table 1"
+
+req1 = Airtable.request("GET", key, AIRTABLE_BASE, AIRTABLE_TABLE; maxRecords=2)
+req1.records
+
+`{{execute}}
