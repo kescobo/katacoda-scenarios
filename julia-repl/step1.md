@@ -1,12 +1,5 @@
 # Julia REPL
 
-## Set the environment variabe
-
-`AIRTABLE_KEY='shrx4BWLV1HurniFD'`{{copy}}
-
-Replace the value with the one of the base that you want to access.
-
-`AIRTABLE_BASE='appphImnhJO8AXmmo'`{{copy}}
 
 ## Launch the REPL
 
@@ -21,6 +14,17 @@ Replace the value with the one of the base that you want to access.
 Then click on the terminal and type a backspace to exit the Package manager
 
 ## Back to the Julia command prompt
+
+### Set the environment variabe
+
+
+`ENV["AIRTABLE_KEY"]="shrx4BWLV1HurniFD"'`{{copy}}
+
+Replace the value with the one of the base that you want to access.
+
+`ENV["AIRTABLE_BASE"]="appphImnhJO8AXmmo"'`{{copy}}
+
+### Run the script
 
 ````
 using Airtable
