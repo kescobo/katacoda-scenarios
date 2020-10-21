@@ -13,7 +13,7 @@
 
 `]`{{execute}}
 
-`add https://github.com/kescobo/Airtable.jl`{{execute}}
+`add Airtable`{{execute}}
 
 Click within the terminal window and type backspace to exit the package manager
 
